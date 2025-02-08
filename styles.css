@@ -1,6 +1,7 @@
 body {
-    display: grid;
-    place-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 80vh;
 }
 .wheel {
@@ -10,10 +11,10 @@ body {
     border-radius: 50%;
     margin-left: 50px;
     position: absolute;
-    height: 55vw;
-    width: 55vw;
-    max-width: 500px;
-    max-height: 500px;
+    height: 80vw;
+    width: 80vw;
+    max-width: 650px;
+    max-height: 650px;
     animation-name: wheel;
     animation-duration: 10s;
     animation-iteration-count: infinite;
